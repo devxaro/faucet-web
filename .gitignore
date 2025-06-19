@@ -1,0 +1,10 @@
+node_modules/
+build/
+.DS_Store
+.idea/**
+.vscode/**
+.gitlab-runner/
+.vite/
+
+# Ignore environment files
+.env*

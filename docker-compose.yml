@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+  flokicoin-faucet-frontend:
+    build:
+      context: .
+      args:
+        - NODE_ENV=${NODE_ENV}
+        - VITE_API_BASE_URL=${VITE_API_BASE_URL}
+        - VITE_HMAC_SECRET_KEY=${VITE_HMAC_SECRET_KEY}
+        - VITE_EXPLORER_URL=${VITE_EXPLORER_URL}
+        - VITE_DEFAULT_ADDRESS=${VITE_DEFAULT_ADDRESS}
+        - VITE_MIN_SCORE=${VITE_MIN_SCORE}
+
+    #image: flokicoin-faucet-frontend
+    container_name: flokicoin-faucet-frontend
+
+    restart: always
+    ports:
+      - 8080:8080

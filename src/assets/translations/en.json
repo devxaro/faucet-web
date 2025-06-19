@@ -1,0 +1,81 @@
+{
+  "slider": {
+    "title": "Flokicoin Faucets",
+    "tagline": "100% Free. Super Easy. Just play",
+    "description": "Get free Flokicoin testnet tokens for developing and testing your dApps — directly through this fun and interactive way. Play, earn, and claim faucet rewards."
+  },
+  "game": {
+    "reward": {
+      "title": "Run complete — rewards unlocked",
+      "subtitle1": "You've got",
+      "subtitle2": "waiting to be",
+      "subtitle3": "claimed !",
+      "subtitle4": "Every run counts. Stack up your score, stack up your rewards 🚀",
+      "claimBtn": "Claim my {{balance}}",
+      "playAgain": " Play again",
+      "exitGame": " Exit game"
+    },
+    "retry": {
+      "title": "Run complete — score too low",
+      "subtitle1": "You didn't exceed the minimum {{minScore}} FLC.",
+      "subtitle2": "Try again to improve!",
+      "retryBtn": "Retry"
+    },
+    "instructions": {
+      "pressThe": "PRESS THE",
+      "clickOn": "CLICK ON",
+      "spacebar": "SPACEBAR",
+      "toStartGame": "TO START 🚀",
+      "game": "GAME"
+    }
+  },
+  "auth": {
+    "disconnected": "Warning: You have been disconnected",
+    "successDisconnecting": "Successful disconnecting"
+  },
+  "coin": "FLC",
+  "terms": "Terms",
+  "legalMentions": "Legal Mentions",
+  "legalModal": "Legal Mentions",
+  "termsModal": "Terms of use",
+  "connect": "Connect",
+  "invalidAddress": "Invalid Flokicoin address format",
+  "winners": "🏆 Leaderboard",
+  "address": "Address",
+  "score": "Score",
+  "connectAccount": "Connect to play 🚀",
+  "enterAddress": "Enter your Flokicoin address",
+  "logout": "Logout",
+  "accumulatedBalance": "Accumulated balance",
+  "claimedBalance": "Claimed balance",
+  "claim": "Claim",
+  "transactions": "Transactions",
+  "txHash": "Tx Hash",
+  "amount": "Amount",
+  "status": "Status",
+  "goHome": "Go Home",
+  "exitGame": "Exit game",
+  "errorMessage": "An error has occurred",
+  "date": "Date",
+  "nextReward": "Next reward",
+  "faq": {
+    "title": "FAQ",
+    "items": {
+      "item1": {
+        "title": "How can I play without making a testnet wallet?",
+        "description": "Use this address for connection "
+      },
+      "item2": {
+        "title": "Sed do eiusmod tempor?",
+        "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      "item3": {
+        "title": "Ut enim ad minim veniam?",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+      }
+    }
+  },
+  "connectToPlay": "Connect to play",
+  "claimSubmitted": "Claim submitted",
+  "copied": "Copied"
+}
