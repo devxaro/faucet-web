@@ -1,6 +1,5 @@
 # Flokicoin Faucet
 
-
 Flokicoin Faucet project. This application allows users to play and earn testnet Flokicoin faucet for development and testing purposes.
 
 ## Prerequisites
@@ -20,7 +19,7 @@ Ensure you have the following installed on your system:
 2. Navigate to the project directory:
 
    ```bash
-   cd flokicoin-faucet
+   cd faucet-web
    ```
 
 3. Install the dependencies using Yarn:
