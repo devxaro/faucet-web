@@ -34,7 +34,7 @@ Ensure you have the following installed on your system:
 To start the faucet application in development mode:
 
 ```bash
-npm run dev
+npm start
 ```
 
 The application will be accessible at `http://localhost:4000`.
