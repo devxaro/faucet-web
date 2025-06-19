@@ -35,9 +35,10 @@
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.54.2",
     "react-i18next": "^15.0.1",
-    "react-redux": "^8.0.2",
+    "react-redux": "^9.2.0",
     "react-router-dom": "6.3.0",
     "react-toastify": "^11.0.2",
+    "redux": "^5.0.1",
     "redux-axios-middleware": "^4.0.1",
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
@@ -54,11 +55,11 @@
     "@types/draft-js": "^0.11.18",
     "@types/draftjs-to-html": "^0.8.4",
     "@types/html-to-draftjs": "^1.5.0",
+    "@types/js-cookie": "^3.0.6",
     "@types/luxon": "^3.6.0",
     "@types/node": "^22.13.4",
     "@types/qs": "^6.9.18",
     "@types/react": "^18.3.3",
-    "@types/js-cookie": "^3.0.6",
     "@types/react-data-grid": "^4.0.12",
     "@types/react-dom": "^18.3.0",
     "@types/react-draft-wysiwyg": "^1.13.8",
@@ -114,5 +115,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "packageManager": "yarn@4.9.2"
 }
