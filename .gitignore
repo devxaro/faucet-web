@@ -1,10 +1,46 @@
+# ------------------------------------
+# 📦 Node / Yarn
+# ------------------------------------
 node_modules/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/global/
+!.yarn/install-state.gz  # Keep for CI/CD
+!.yarnrc.yml             # Yarn 4 config
+
+# ------------------------------------
+# 🛠️ Build output
+# ------------------------------------
 build/
-.DS_Store
-.idea/**
-.vscode/**
-.gitlab-runner/
+dist/
 .vite/
 
-# Ignore environment files
-.env*
+# ------------------------------------
+# 🧪 Env files
+# ------------------------------------
+.env
+.env.*.local
+
+# ------------------------------------
+# 🧠 IDEs / Tools
+# ------------------------------------
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ------------------------------------
+# 🪵 Logs / System
+# ------------------------------------
+.DS_Store
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ------------------------------------
+# 🧪 Test output
+# ------------------------------------
+coverage/
+jest-html-reporters-*.html
