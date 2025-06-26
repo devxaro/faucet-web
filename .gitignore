@@ -2,19 +2,18 @@
 # 📦 Node / Yarn
 # ------------------------------------
 node_modules/
-.yarn/cache/
-.yarn/unplugged/
-.yarn/build-state.yml
-.yarn/global/
-!.yarn/install-state.gz  # Keep for CI/CD
-!.yarnrc.yml             # Yarn 4 config
+.yarn
+.next
+.wrangler
 
 # ------------------------------------
 # 🛠️ Build output
 # ------------------------------------
 build/
 dist/
+out/
 .vite/
+tsconfig.tsbuildinfo
 
 # ------------------------------------
 # 🧪 Env files
@@ -38,7 +37,7 @@ dist/
 npm-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-
+tsconfig.tsbuildinfo
 # ------------------------------------
 # 🧪 Test output
 # ------------------------------------
