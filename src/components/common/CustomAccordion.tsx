@@ -54,12 +54,21 @@ const CustomAccordion = ({
               }}
             >
               {item.description && (
-                <Box sx={{ flexShrink: 0, whiteSpace: "normal", width: "fit-content" }}>
+                <Box
+                  sx={{
+                    flexShrink: 0,
+                    whiteSpace: "normal",
+                    width: "fit-content",
+                    lineHeight: 1.6,
+                  }}
+                >
                   {item.description}
                 </Box>
               )}
               {item.link && (
-                <Box sx={{ whiteSpace: "normal" }}>{item.link}</Box>
+                <Box sx={{ whiteSpace: "normal", marginTop: 1 }}>
+                  {item.link}
+                </Box>
               )}
             </Box>
           </AccordionDetails>
