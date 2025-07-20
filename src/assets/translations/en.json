@@ -62,7 +62,7 @@
     "title": "FAQ",
     "items": {
       "item1": {
-        "title": "Can I play without setting up a wallet?",
+        "title": "Can I play without setting up a testnet wallet?",
         "description": "Yes! You can start right away without setting up a wallet. We provide a shared testnet address for quick testing — ideal for first-time users. Note that this address resets regularly and is not suitable for long-term tracking or claiming. Use it only if you don't want to connect your own wallet: "
       },
       "item2": {
