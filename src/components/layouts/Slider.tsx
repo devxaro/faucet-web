@@ -18,10 +18,11 @@ const Slider: React.FC = () => {
       <Box
         sx={{
           display: "flex",
-          my: 2,
-          gap: 2,
+          flexDirection: { xs: "column", md: "row" }, 
           alignItems: "center",
           justifyContent: "center",
+          my: 2,
+          gap: 2,
         }}
       >
         <Box
@@ -30,7 +31,6 @@ const Slider: React.FC = () => {
           alt="Logo"
           sx={{
             height: { xs: "50px", md: "70px" },
-            marginRight: "10px",
           }}
         />
         <Typography
