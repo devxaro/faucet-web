@@ -54,9 +54,9 @@ const CustomAccordion = ({
               }}
             >
               {item.description && (
-                <Typography variant="body2" sx={{ mb: item.link ? 1 : 0 }}>
+                <Box sx={{ flexShrink: 0, whiteSpace: "normal" }}>
                   {item.description}
-                </Typography>
+                </Box>
               )}
               {item.link && (
                 <Box sx={{ whiteSpace: "normal" }}>{item.link}</Box>
