@@ -37,7 +37,7 @@ const Slider: React.FC = () => {
           sx={{
             fontWeight: "bold !important",
             color: PRIMARY_BLACK,
-            typography: { xs: "h5", md: "h3" },
+            typography: { xs: "h5", md: "h4" },
             textAlign: "center",
           }}
         >
@@ -48,7 +48,7 @@ const Slider: React.FC = () => {
       <Typography
         sx={{
           fontWeight: 600,
-          fontSize: "1rem",
+          fontSize: "1.3rem",
           color: PRIMARY_BLACK,
           mb: 1,
           textAlign: "center",
