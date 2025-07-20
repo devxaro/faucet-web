@@ -54,7 +54,7 @@ const CustomAccordion = ({
               }}
             >
               {item.description && (
-                <Box sx={{ flexShrink: 0, whiteSpace: "normal" }}>
+                <Box sx={{ flexShrink: 0, whiteSpace: "normal", width: "fit-content" }}>
                   {item.description}
                 </Box>
               )}
