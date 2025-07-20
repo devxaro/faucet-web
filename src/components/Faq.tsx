@@ -55,6 +55,34 @@ const Faq = () => {
       title: t("faq.items.item3.title"),
       description: t("faq.items.item3.description"),
     },
+    {
+      title: t("faq.items.item4.title"),
+      description: t("faq.items.item4.description"),
+    },
+    {
+      title: t("faq.items.item5.title"),
+      description: t("faq.items.item5.description"),
+    },
+    {
+      title: t("faq.items.item6.title"),
+      description: t("faq.items.item6.description"),
+    },
+    {
+      title: t("faq.items.item7.title"),
+      description: t("faq.items.item7.description"),
+    },
+    {
+      title: t("faq.items.item8.title"),
+      description: t("faq.items.item8.description"),
+    },
+    {
+      title: t("faq.items.item9.title"),
+      description: t("faq.items.item9.description"),
+    },
+    {
+      title: t("faq.items.item10.title"),
+      description: t("faq.items.item10.description"),
+    }
   ];
 
   return (
