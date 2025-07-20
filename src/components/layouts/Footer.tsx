@@ -36,7 +36,7 @@ const Footer = () => {
           zIndex: 1000,
         }}
       >
-        <Box
+        {/* <Box
           sx={{
             display: "flex",
             gap: "1rem", // Add spacing between items
@@ -72,7 +72,8 @@ const Footer = () => {
           >
             {t("terms")}
           </Typography>
-        </Box>
+        </Box> */}
+        
       </AppBar>
       <CustomModal
         open={openLegalModal}
