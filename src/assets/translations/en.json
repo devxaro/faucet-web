@@ -1,25 +1,25 @@
 {
   "slider": {
-    "title": "Flokicoin Faucets",
-    "tagline": "100% Free. Super Easy. Just play",
-    "description": "Get free Flokicoin testnet tokens for developing and testing your dApps — directly through this fun and interactive way. Play, earn, and claim faucet rewards."
+    "title": "Flokicoin Testnet Faucet",
+    "tagline": "Play to test. Earn for fun.",
+    "description": "Remember the T-Rex game when the internet went out? Now that offline moment earns you free testnet Flokicoin, no connection drop required :D"
   },
   "game": {
     "reward": {
-      "title": "Run complete — rewards unlocked",
-      "subtitle1": "You've got",
+      "title": "Run Complete — Coins Unlocked",
+      "subtitle1": "You’ve earned",
       "subtitle2": "waiting to be",
-      "subtitle3": "claimed !",
-      "subtitle4": "Every run counts. Stack up your score, stack up your rewards 🚀",
-      "claimBtn": "Claim my {{balance}}",
-      "playAgain": " Play again",
-      "exitGame": " Exit game"
+      "subtitle3": "claimed!",
+      "subtitle4": "Every run counts. Score more, earn more 🚀",
+      "claimBtn": "Claim {{balance}}",
+      "playAgain": " Run Again",
+      "exitGame": " Exit Game"
     },
     "retry": {
-      "title": "Run complete — score too low",
-      "subtitle1": "You didn't exceed the minimum {{minScore}} FLC.",
-      "subtitle2": "Try again to improve!",
-      "retryBtn": "Retry"
+      "title": "Run Complete — Score Too Low",
+      "subtitle1": "You didn’t reach the minimum of {{minScore}} FLC.",
+      "subtitle2": "Give it another run!",
+      "retryBtn": "Run Again"
     },
     "instructions": {
       "pressThe": "PRESS THE",
@@ -38,44 +38,71 @@
   "legalMentions": "Legal Mentions",
   "legalModal": "Legal Mentions",
   "termsModal": "Terms of use",
-  "connect": "Connect",
-  "invalidAddress": "Invalid Flokicoin address format",
-  "winners": "🏆 Leaderboard",
-  "address": "Address",
-  "score": "Score",
-  "connectAccount": "Connect to play 🚀",
-  "enterAddress": "Enter your Flokicoin address",
-  "logout": "Logout",
-  "accumulatedBalance": "Accumulated balance",
-  "claimedBalance": "Claimed balance",
-  "claim": "Claim",
+  "connect": "Connect Wallet",
+  "invalidAddress": "Invalid Flokicoin testnet address format",
+  "winners": "🏆 Top Runs",
+  "address": "Wallet Address",
+  "score": "Run Score",
+  "connectAccount": "Connect your wallet to play 🚀",
+  "enterAddress": "Enter your Flokicoin testnet address",
+  "logout": "Disconnect Wallet",
+  "accumulatedBalance": "Unclaimed balance",
+  "claimedBalance": "Claimed Coins",
+  "claim": "Claim Coins",
   "transactions": "Transactions",
   "txHash": "Tx Hash",
   "amount": "Amount",
   "status": "Status",
-  "goHome": "Go Home",
+  "goHome": "Back to Home",
   "exitGame": "Exit game",
-  "errorMessage": "An error has occurred",
+  "errorMessage": "Something went wrong. Please try again.",
   "date": "Date",
-  "nextReward": "Next reward",
+  "nextReward": "Next Block",
   "faq": {
-    "title": "FAQ",
+    "title": "FAQ — Testnet Help",
     "items": {
       "item1": {
-        "title": "How can I play without making a testnet wallet?",
-        "description": "Use this address for connection "
+        "title": "Can I play without setting up a wallet?",
+        "description": "Yes! You can start right away without setting up a wallet. We provide a shared testnet address for quick testing — ideal for first-time users. Note that this address resets regularly and is not suitable for long-term tracking or claiming. Use it only if you don't want to connect your own wallet: "
       },
       "item2": {
-        "title": "Sed do eiusmod tempor?",
-        "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      },
+        "title": "How do I install tWallet?",
+        "description": "You can get tWallet from the GitHub repo at https://github.com/flokiorg/tWallet or use the plug-and-play version via the toolchain at https://myfloki.com. Once installed, create a new wallet or import an existing one."      },
       "item3": {
-        "title": "Ut enim ad minim veniam?",
-        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+        "title": "How do I enable the testnet in tWallet?",
+        "description": "To enable the testnet in tWallet, create a file called `twallet.conf` in the same folder as your tWallet app. Inside that file, add this line: `testnet = true`. You can copy a sample config from: https://github.com/flokiorg/tWallet/blob/main/sample-twallet.conf"      
+      },
+      "item4": {
+        "title": "Where can I see my testnet transactions?",
+        "description": "Use the Flokicoin testnet explorer to view your wallet balance, faucet claims, and block status. https://testnet.flokichain.info"
+      },
+      "item5": {
+        "title": "Are testnet coins real or usable on mainnet?",
+        "description": "No — testnet Flokicoins are only for development purposes. They have no real-world value and cannot be used or traded on mainnet."
+      },
+      "item6": {
+        "title": "How often can I claim testnet coins?",
+        "description": "You can claim after each run that meets the score requirement. Claims are included in the next mined block. If no one claims, no block is mined."
+      },
+      "item7": {
+        "title": "Why didn’t I receive my coins right away?",
+        "description": "Claims are submitted to the mempool and need to be included in the next mined block. If the faucet is idle, mining pauses until someone makes a claim."
+      },
+      "item8": {
+        "title": "Can I play the game on mobile?",
+        "description": "Yes, the game works on mobile."
+      },
+      "item9": {
+        "title": "Do I need to sign anything to claim?",
+        "description": "No wallet signature is required. Your connected address is automatically registered when your run qualifies for a claim."
+      },
+      "item10": {
+        "title": "Can I mine blocks for the testnet?",
+        "description": "Yes! If you run a Flokicoin testnet node with mining enabled, your node can help include faucet claims in blocks and support the testnet network."
       }
     }
   },
   "connectToPlay": "Connect to play",
-  "claimSubmitted": "Claim submitted",
-  "copied": "Copied"
+  "claimSubmitted": "Claim Submitted to Mempool",
+  "copied": "Address Copied!"
 }
