@@ -66,7 +66,7 @@ const CustomAccordion = ({
                 </Box>
               )}
               {item.link && (
-                <Box sx={{ whiteSpace: "normal", marginTop: 10 }}>
+                <Box sx={{ whiteSpace: "normal", marginTop: 1 }}>
                   {item.link}
                 </Box>
               )}
