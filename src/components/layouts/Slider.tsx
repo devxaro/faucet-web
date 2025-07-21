@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import { PRIMARY_BLACK } from "@assets/colors";
 import logo from "@assets/logo.jpg";
 import { Box, Typography } from "@mui/material";
+import CoinIcon from "@components/icons/CoinIcon";
 
 const Slider: React.FC = () => {
   const { t } = useTranslation();
@@ -25,12 +26,10 @@ const Slider: React.FC = () => {
           gap: 2,
         }}
       >
-        <Box
-          component="img"
-          src={logo}
-          alt="Logo"
+        <CoinIcon
           sx={{
-            height: { xs: "50px", md: "70px" },
+            height: { xs: '50px', md: '70px' },
+            width: { xs: '50px', md: '70px' },
           }}
         />
         <Typography

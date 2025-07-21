@@ -5,7 +5,11 @@ const CoinIcon = (props: SvgIconProps) => {
   return (
     <SvgIcon
       {...props}
-      sx={{ height: "20px !important", width: "20px !important" }}
+      sx={{
+        height: '20px',
+        width: '20px',
+        ...props.sx,
+      }}
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +19,7 @@ const CoinIcon = (props: SvgIconProps) => {
         height="32"
       >
         <g clipPath="url(#clip0_5_38)">
-          <circle fill="#B1800B" r="345.5" cy="347.5" cx="345.5" />
+          <circle fill="#ed2727" r="345.5" cy="347.5" cx="345.5" />
           <rect
             fill="white"
             transform="rotate(10 265.554 144)"
