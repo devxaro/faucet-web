@@ -48,7 +48,7 @@
   "logout": "Logout",
   "accumulatedBalance": "Unclaimed balance",
   "claimedBalance": "Claimed Coins",
-  "claim": "Claim Coins",
+  "claim": "Claim",
   "transactions": "Transactions",
   "txHash": "Tx Hash",
   "amount": "Amount",
