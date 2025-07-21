@@ -1,7 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 import { PRIMARY_BLACK } from "@assets/colors";
-import logo from "@assets/logo.jpg";
 import { Box, Typography } from "@mui/material";
 import CoinIcon from "@components/icons/CoinIcon";
 

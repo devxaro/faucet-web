@@ -1,10 +1,10 @@
 import { FC } from "react";
 import { useTranslation } from "react-i18next";
-import logo from "@assets/logo.jpg";
 import { Box, Typography } from "@mui/material";
 import CustomButton from "@components/common/CustomButton";
 import { getAccount } from "@store/app/AppSelectors";
 import { useSelector } from "@store/store";
+import CoinIcon from "@components/icons/CoinIcon";
 
 interface GameRewardProps {
   lastScore: number;
@@ -32,7 +32,12 @@ const GameReward: FC<GameRewardProps> = ({
         padding: 2,
       }}
     >
-      <img src={logo} alt="Coin Logo" style={{ width: 80, height: 80 }} />
+      <CoinIcon
+          sx={{
+            height: { xs: '50px', md: '70px' },
+            width: { xs: '50px', md: '70px' },
+          }}
+        />
       <Box mt={2}>
         <Typography
           sx={{
